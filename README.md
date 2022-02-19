@@ -5,6 +5,11 @@
 
 Install handling for your React [PWA].
 
+## forked
+
+- forked on amt-pub/react-pwa-install fork (unmerged PR) to allow to use customized texts
+- minor changes on on popup
+
 ## The problem this package is trying to solve
 
 Since intalling a PWA (aka [Add to home screen]) is handled differently by different browsers, it's rather hard to give this option to users conveniently. Currently only Chrome, Edge and Samsung Internet support this feature natively using the [BeforeInstallPromptEvent]. On iOS devices, FireFox mobile or Opera mobile the user needs to perform some manual steps to install the app to the home screen. Very few know this option even exists.
