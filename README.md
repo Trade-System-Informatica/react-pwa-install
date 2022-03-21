@@ -29,7 +29,7 @@ To view the demo visit: https://zoltangy.github.io/react-pwa-install-demo/ (view
 To use the package, you also need to install @mui/material v5 with its dependancies.
 
 ```shell
-$ npm i --save react-pwa-install @mui/material @mui/styles @emotion/react @emotion/styled
+$ npm i --save @elilondon/react-pwa-install @mui/material @mui/styles @emotion/react @emotion/styled
 ```
 
 ## Prerequisites
