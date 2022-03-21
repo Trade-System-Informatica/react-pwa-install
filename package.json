@@ -21,16 +21,19 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.2",
+    "@mui/styles": "^5.5.1",
     "mobile-device-detect": "^0.4.3"
   },
   "peerDependencies": {
-    "react": "17.x"
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "@material-ui/core": "^4.9.12",
     "nwb": "0.24.x",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "author": "",
   "homepage": "",

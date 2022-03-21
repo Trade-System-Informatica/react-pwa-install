@@ -1,13 +1,13 @@
 import React from "react";
-import { Grid, Box, Typography, Dialog, DialogTitle, DialogContent } from "@material-ui/core";
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { useTheme } from '@material-ui/core/styles';
+import { Grid, Box, Typography, Dialog, DialogTitle, DialogContent } from "@mui/material";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 import InstallDialogAction from "./InstallDialogAction";
 
 
 const InstallDialog = (props) => {
   const theme = useTheme();
-  const fullScreen = useMediaQuery(theme.breakpoints.down('xs'));
+  const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
   return (
     <Dialog open={props.open} onClose={props.onClose} aria-labelledby="dialog-title" fullScreen={fullScreen}>
       <DialogTitle id="dialog-title">{props.title || "Install Web App"}</DialogTitle>

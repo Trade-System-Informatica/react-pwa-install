@@ -7,8 +7,7 @@ Install handling for your React [PWA].
 
 ## forked
 
-- forked on amt-pub/react-pwa-install fork (unmerged PR) to allow to use customized texts
-- minor changes on on popup
+- forked from teuteuf/react-pwa-install to update to MUI v5 and React v17
 
 ## The problem this package is trying to solve
 
@@ -27,10 +26,10 @@ To view the demo visit: https://zoltangy.github.io/react-pwa-install-demo/ (view
 
 ## Installation
 
-To use the package, you also need to install @material-ui/core.
+To use the package, you also need to install @mui/material v5 with its dependancies.
 
 ```shell
-$ npm i --save react-pwa-install @material-ui/core
+$ npm i --save react-pwa-install @mui/material @mui/styles @emotion/react @emotion/styled
 ```
 
 ## Prerequisites
