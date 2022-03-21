@@ -115,7 +115,7 @@ The following options are available to customize the install dialog:
 ## Customization
 
 To customize the colors and fonts of the dialog, you can wrap the ReactPWAInstallProvider with a Material-UI ThemeProvider.
-See https://material-ui.com/customization/theming/ for more info.
+See https://mui.com/customization/theming/ for more info.
 
 [npm-badge]: https://img.shields.io/npm/v/react-pwa-install
 [npm-downloads]: https://img.shields.io/npm/dt/react-pwa-install
